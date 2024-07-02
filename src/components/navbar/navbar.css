@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.NavbarShape
+{
+	align-content: center;
+	clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);
+	tw-bg-opacity: 1;
+	background-color: rgba(55, 65, 81, 1);
+}
