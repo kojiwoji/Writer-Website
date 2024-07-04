@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.NavbarShape
-{
+.NavbarShape {
 	align-content: center;
 	clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);
 	tw-bg-opacity: 1;

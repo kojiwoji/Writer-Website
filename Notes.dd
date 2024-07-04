@@ -1,34 +1,87 @@
-// components/Component/index.js
+==== Notes
+The following are small snippets or sections with information to give this project at sense of progress.
+For instance To-Do lists, and other small tips, self-reflection or info that might be of help.
 
-// 1) Component props
-// always name this "IProps"
-// this makes it easy to quickly see the expected props for this component
-interface IProps {
-  // ...
-};
+=== To-Do
+- Sidebar
+  Note: Should be used with filtering, or when there's is several functions to choose from for the page.
+- Logsystem
+- Comment Section
+- Account
+  - Function:Follow
+  - Function:Create content
+  - Function:Edit content
+    - Separate page with (Optional:live) editing.
+  - Function:Display user created content
+- Searchbar
+- Pagetree
 
-// 2) Main component export
-// immediately after, put the component name since this is what this package is all about
-// use default function values for default props
-export default function ComponentName({ prop1, prop2 = 'default value' }: IProps) {
-  // component is structured by
-  // 2.1) Hooks
-  // if this is more than 5 lines, a custom hook is extracted
-  // more about this - https://blog.rstankov.com/extract-react-hook-refactoring/
-
-  // 2.2) Guard clauses
-  if (someCondition) {
-    return null;
-  } 
-
-  if (someOtherCondiation) {
-    return <SamePlaholder />
-  }
-
-  // 2.3) The happy path of the component
-	return <div>My component</div>;
-}
-
-// 3) Everything else...
-// Here's where the smaller helper hooks, utils, and components live.
-// If those get bigger, they can be moved into separate files in the component directory
+- Edit - More Info
+  - Text Size
+  - Bold
+  - Italic
+  - Underline
+  - Color
+  - More
+    - Strikethrough
+    - Subscript
+    - Supersript
+  - Bullet List
+  - Numbered List
+  - Task List(Check boxes)
+  - Outdent
+  - Indent
+  - Align Left
+  - Align Middle
+  - Alignt Right
+  - Page Layout (There will be line break between sections)
+    - Insert Section(Div)
+    - Remove Section
+    - Move Section Up/Down
+    - Single Column Section
+    - Two Column Section
+    - Two Column Section with left side-bar
+    - Two Column Section with righ side-bar 
+    - Three Column Section with side-bars
+  - Insert File, Image
+    - Upload a file, image (Clickable IMG to download file, if file)
+    - Use image URL
+  - Insert Link (Option to add Link text, standard should be thar selected snippet)
+    - Link to download file
+    - Link to weblink
+  - Insert Table
+  - Insert Emoji
+    - Tabs with emojis
+    - Searchbar for finding emoji
+  
+  [Macros]
+  - Horizontal Line
+  - Insert Symbol
+  - User Mention
+  - Insert Info 
+  - Status (Color, Standard name = Status)
+  - Insert Gallery
+    - A summary for all the images from the current page
+  - Insert Roadmap Planner
+    - Add Lane
+    - Add Bar
+    - Add Marker
+  - Userlist
+    - Groupname
+  - Table of content, depending on all the headings
+  - Live Search
+  - Children Display
+    - Display all children to a page
+  - Codeblock
+  - Column
+  - Expand Textbox
+  - Warning
+  - Tip
+  - Note
+  - Chart
+    - Type; Pie
+    - Chart title
+    - Show legend (Legend of the whole thing)
+    - Content orientation
+  - Undo
+  - Redo
