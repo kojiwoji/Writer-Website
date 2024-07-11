@@ -2,6 +2,8 @@ import './App.css'
 import Navbar from './components/Navbar/navbar'
 import ContentMain from './components/MainContent/content'
 
+// Use Crow as backend.
+
 function App() {
   return (
     <>
